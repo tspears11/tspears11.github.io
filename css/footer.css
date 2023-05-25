@@ -1,0 +1,21 @@
+footer {
+    grid-area: ft;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 30px;
+}
+
+.socials i {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.socials i:hover {
+    background-color: #deb1de;
+}

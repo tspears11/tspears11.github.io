@@ -1,0 +1,50 @@
+main {
+    grid-area: mn;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 375px;
+    border: 1px solid #a971a9;
+    border-radius: 12px;
+    padding:20px 30px 20px 45px;
+    box-shadow: 2px 2px 2px #bb7cbb;
+    background: white;
+    margin-top: 20px;
+    
+}
+
+.card-img {
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: -40px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    padding-right: 40px;
+}
+
+ h5 {
+    margin: 0;
+    font-weight: bold;
+ }
+
+h6 {
+    margin: 0;
+    font-style: italic;
+}
+
+.content {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.blog-content {
+    padding-left: 40px;
+}
