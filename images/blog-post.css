@@ -1,0 +1,18 @@
+.blog-content1 {
+    text-align: center;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    padding-left: 40px;
+}
+
+.blog-content2 {
+    text-align: center;
+    padding-left: 40px;
+    margin-top: -20px;
+}
+

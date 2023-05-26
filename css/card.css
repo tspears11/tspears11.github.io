@@ -45,20 +45,7 @@ h6 {
     padding: 3px;
 }
 
-.blog-content1 {
-    text-align: center;
-    padding-left: 40px;
-    margin-top: 10px;
+button a{
+    text-decoration: none;
 }
 
-blockquote {
-    text-align: center;
-    font-style: italic;
-    padding-left: 40px;
-}
-
-.blog-content2 {
-    text-align: center;
-    padding-left: 40px;
-    margin-top: -20px;
-}
