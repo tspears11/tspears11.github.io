@@ -36,3 +36,16 @@
         padding: 10px;
     }
 }
+@media screen and (max-width:768px) {
+    .nav-links{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav-links li{
+        margin-bottom: 0;
+        padding: 10px;
+    }
+}

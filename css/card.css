@@ -2,18 +2,18 @@ main {
     grid-area: mn;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    margin: 20px;
+    gap: 5px;
 }
 
 .card{
-    width: 250px;
+    width: 235px;
     height: 375px;
     border: 1px solid #a971a9;
     border-radius: 12px;
     padding:20px 30px 20px 45px;
     box-shadow: 2px 2px 2px #bb7cbb;
     background: white;
-    margin-top: 20px;
     
 }
 
@@ -45,6 +45,20 @@ h6 {
     padding: 3px;
 }
 
-.blog-content {
+.blog-content1 {
+    text-align: center;
     padding-left: 40px;
+    margin-top: 10px;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    padding-left: 40px;
+}
+
+.blog-content2 {
+    text-align: center;
+    padding-left: 40px;
+    margin-top: -20px;
 }
