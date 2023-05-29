@@ -23,7 +23,7 @@
     background-color: #e8c6e8;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (min-width:425px) {
     .nav-links {
         display: flex;
         flex-direction: row;
