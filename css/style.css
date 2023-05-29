@@ -55,12 +55,10 @@ header {
     max-width: 768px;
 }
 
-.about {
-    max-width: 768px;
-    text-align: center;
-    font-size: 16px;
+.under-construction {
+    width: fit-content;
 }
- 
+
 @media screen and (max-width: 425px) {
     .grid {
         grid-template-areas: 
@@ -81,11 +79,13 @@ header {
         flex-wrap: wrap;
         padding: 20px;
     }
-    .under-construction {
-        max-width: 425px;
+    /* .under-construction {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-    }
+    } */
     .blog {
         display: flex;
         flex-direction: column;
@@ -132,10 +132,10 @@ header {
         padding: 10px 35px 20px 10px;
         
     }
-    .under-construction {
-        max-width: 730px;
+    /* .under-construction {
+        max-width: 700px;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
-}
+} 
