@@ -1,8 +1,8 @@
-@import url('nav.css');
+@import url('/css/nav.css');
 @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
-@import url('card.css');
-@import url('footer.css');
-@import url('blog-post.css');
+@import url('/css/card.css');
+@import url('/css/footer.css');
+@import url('/css/blog-post.css');
 
 body {
     height: 100vh;
@@ -58,22 +58,23 @@ header {
 .about{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 0;
-    padding-left: 70px;
+    max-width:fit-content;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 0;
-    padding-left: 70px;
-
+    max-width:fit-content;
+    align-items: center;
+    justify-content: center;
 }
 
 .under-construction {
-    width:300px
+    width: 400px;
+    align-items: center;
+    padding-left: 70px;
 }
 
 @media screen and (max-width: 425px) {
