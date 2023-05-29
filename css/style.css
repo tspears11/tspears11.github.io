@@ -56,7 +56,8 @@ header {
 }
 
 .under-construction {
-    width: fit-content;
+    width: 650px;
+    height: 650px;
 }
 
 @media screen and (max-width: 425px) {
