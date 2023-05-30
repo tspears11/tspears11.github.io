@@ -10,6 +10,7 @@ body {
     padding: 0;
     font-family: 'Tsukimi Rounded', sans-serif;
 }
+
 .grid {
     height: 100%;
     display: grid;
@@ -20,6 +21,10 @@ body {
     'sb ft';
     grid-template-columns: 200px auto;
     grid-template-rows: 80px auto auto 80px ;
+}
+
+.grid h1 {
+    font-size: 30px;
 }
 
 header {
@@ -56,10 +61,14 @@ header {
 }
 
 .under-construction {
-    width: 30%;
+    width: 250px;
+    padding-left: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -180px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
     .grid {
         grid-template-areas: 
         'hd'
@@ -79,6 +88,8 @@ header {
         flex-wrap: wrap;
         padding: 20px;
     }
+        
+
     .blog {
         display: flex;
         flex-direction: column;
@@ -101,6 +112,7 @@ header {
         grid-template-columns: auto;
         grid-template-rows: auto;
     }  
+
     .bio {
         display: flex;
         flex-direction: column;
@@ -109,6 +121,7 @@ header {
         flex-wrap: wrap;
         padding: 10px;    
     }
+
     main {
         display: flex;
         flex-direction: row ;
@@ -116,6 +129,7 @@ header {
         justify-content: center;
         flex-wrap: wrap;
     }
+    
     .blog {
         display: flex;
         flex-direction: row ;
@@ -126,3 +140,5 @@ header {
         
     }
 }
+
+    
