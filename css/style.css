@@ -10,6 +10,7 @@ body {
     padding: 0;
     font-family: 'Tsukimi Rounded', sans-serif;
 }
+
 .grid {
     height: 100%;
     display: grid;
@@ -20,6 +21,10 @@ body {
     'sb ft';
     grid-template-columns: 200px auto;
     grid-template-rows: 80px auto auto 80px ;
+}
+
+.grid h1 {
+    font-size: 30px;
 }
 
 header {
